@@ -77,11 +77,10 @@ function BookingForm() {
             //     payload
             // );
 
-            const res = await axios.post(
-                `${API_URL}/api/booking/create`,
-                payload
-            );
-
+            await axios.post(
+    `${API_URL}/api/booking/create`,
+    payload
+);
 
             setSuccess(true);
 
