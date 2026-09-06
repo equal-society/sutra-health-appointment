@@ -82,7 +82,6 @@ function BookingForm() {
                 payload
             );
 
-            const meetingLink = res.data.meetingLink;
 
             setSuccess(true);
 
